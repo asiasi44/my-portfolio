@@ -1,5 +1,5 @@
 import Image from "next/image";
-import linkedin from "@/app/icons/myphoto.png";
+import myphoto from "@/app/icons/myphoto.png";
 import { BsArrow90DegLeft } from "react-icons/bs";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <div className="bg-white flex text-black w-full justify-between">
       <div className="">
         <Image
-          src={linkedin}
+          src={myphoto}
           alt="my image"
           width={815}
           height={611}
@@ -15,10 +15,10 @@ export default function Home() {
         />
       </div>
       <BsArrow90DegLeft
-        className="absolute top-32 -rotate-12 right-[42rem]"
+        className="absolute top-32 -rotate-12 right-[42rem] responsive-hidden"
         size={60}
       />
-      <div className="w-2/4 flex items-right justify-center flex-col mx-9 gap-16">
+      <div className="w-2/4 flex items-right justify-center flex-col mx-9 gap-16 responsive-hidden">
         <div className="text-[40px] text-start">this is me</div>
         <div className="text-[30px]">
           i am a web developer with a growing passion for machine learning,

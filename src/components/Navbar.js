@@ -1,13 +1,17 @@
+"use client"
 import { BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 
 const Navbar = () => {
+  const openSidebar = () => {
+    console.log("hi")
+  }
   return (
-    <div className="flex items-center justify-between gap-6 text-[45px] mx-16 h-[6.3rem]">
+    <div className="flex items-center justify-between gap-6 text-[45px] mx-16 h-[6.3rem] responsive-text-center">
       <div>
         <Link href="/">ASIM POUDEL</Link>
       </div>
-      <div className="flex text-[30px] gap-8 items-center">
+      <div className="flex text-[30px] gap-8 items-center responsive-hidden">
         <div>
           <Link href={"/"}>HOME</Link>
         </div>
@@ -33,6 +37,11 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
+      </div>
+      <div className="hidden responsive-show" onClick={openSidebar}>
+        <div className="h-0.5 w-5 bg-white"></div>
+        <div className="h-0.5 w-5 bg-white"></div>
+        <div className="h-0.5 w-5 bg-white"></div>
       </div>
     </div>
   );
