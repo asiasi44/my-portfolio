@@ -7,11 +7,11 @@ import Link from "next/link";
 const Certifications = () => {
   return (
     <div className="my-16 flex flex-col gap-12">
-      <div className="text-[35px]">Certification and Courses</div>
+      <div className="text-[2.2rem] responsive-topic-font">Certification and Courses</div>
       <div className="flex flex-col gap-12">
         <div className="flex flex-col gap-6">
-          <div className="text-[30px]">full stack open</div>
-          <div className="flex text-[25px] gap-12 items-center">
+          <div className="text-[30px] responsive-subtopic-font">full stack open</div>
+          <div className="flex text-[25px] gap-12 items-center responsive-show">
             <Link
               href={
                 "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/663ea48f5d78a3067fef1f5de797e486"
@@ -26,7 +26,7 @@ const Certifications = () => {
                 className="grayscale"
               />
             </Link>
-            <ul className="list-disc">
+            <ul className="list-disc responsive-description-font">
               <li>
                 Gained hands-on experience with modern web technologies
                 including React, Node.js, Express, MongoDB, and GraphQL.
@@ -47,10 +47,10 @@ const Certifications = () => {
           </div>
         </div>
         <div className="flex flex-col gap-6">
-          <div className="text-[30px]">
+          <div className="text-[30px] responsive-subtopic-font">
             Data Analysis and Python Skills (DataCamp)
           </div>
-          <div className="flex text-[25px] gap-12 items-center">
+          <div className="flex text-[25px] gap-12 items-center responsive-show">
             <Image
               src={datacamp}
               width={485}
@@ -58,7 +58,7 @@ const Certifications = () => {
               alt="datacamp"
               className="grayscale"
             />
-            <ul className="list-disc">
+            <ul className="list-disc responsive-description-font">
               <li>
                 Completed the Data Analyst in Python course and specialized
                 training in web scraping, data science, hypothesis testing, and
@@ -83,10 +83,10 @@ const Certifications = () => {
           </div>
         </div>
         <div className="flex flex-col gap-6">
-          <div className="text-[30px]">
+          <div className="text-[30px] responsive-subtopic-font">
             Stanford CS229: Machine Learning (In Progress)
           </div>
-          <div className="flex text-[25px] gap-12 items-center">
+          <div className="flex text-[25px] gap-12 items-center responsive-show">
             <Link
               href={
                 "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
@@ -102,7 +102,7 @@ const Certifications = () => {
               />
             </Link>
 
-            <ul className="list-disc">
+            <ul className="list-disc responsive-description-font">
               <li>
                 Currently studying under Andrew Ng's renowned course, In
                 Youtube, delving into foundational and advanced topics in

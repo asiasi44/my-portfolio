@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const WorkExperience = () => {
   return (
-    <div className="flex flex-col gap-6 my-16">
-      <div className="text-[35px]">Work experience</div>
-      <div className="flex">
-        <div className="text-[30px] w-1/3 flex flex-col justify-center items-center">
+    <div className="flex flex-col gap-6 my-16 responsive-small-top-margin">
+      <div className="text-[2.2rem] responsive-topic-font">Work experience</div>
+      <div className="flex responsive-show">
+        <div className="text-[30px] w-1/3 flex flex-col justify-center items-center responsive-full-width responsive-subtopic-font">
           Digital media team <div>11/2022 - 11/2023</div>
         </div>
-        <div className="w-1/3">
+        <div className="w-1/3 responsive-full-width">
           <Image
             src={dmt}
             alt="dmt image"
@@ -18,7 +18,7 @@ const WorkExperience = () => {
             className=" flex grayscale justify-center items-center"
           />
         </div>
-        <div className="w-1/3 text-[20px] flex flex-col justify-center items-center">
+        <div className="w-1/3 text-[20px] flex flex-col justify-center items-center responsive-full-width responsive-description-font">
           Managed and maintained websites integral to the operations of the
           college, ensuring seamless functionality and reliability. Worked on
           projects utilizing Core PHP, Laravel, React, and Node.js, gaining

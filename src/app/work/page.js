@@ -4,7 +4,7 @@ import Certifications from "@/components/Certifications";
 
 const Work = () => {
   return (
-    <div className="mx-16">
+    <div className="mx-16 responsive-margin">
         <WorkExperience/>
         <Projects/>
         <Certifications/>

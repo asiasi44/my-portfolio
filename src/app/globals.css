@@ -12,6 +12,42 @@
   .responsive-show {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 10px;
+  }
+  .responsive-flex-to-column {
+    flex-direction:  column;
+  }
+  .responsive-full-width {
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+  }
+  .responsive-timeline-icons {
+    height: 30px;
+  }
+  .responsive-small-font-size {
+    font-size: 0.88rem;
+  }
+  .responsive-width-decrease {
+    width: 1rem;
+  }
+  .responsive-topic-font {
+    font-size: 1.8rem;
+  }
+  .responsive-subtopic-font {
+    font-size: 1.5rem
+  }
+  .responsive-description-font {
+    font-size: 1rem;
+  }
+  .responsive-margin {
+    margin: auto 20px;
+  }
+  .responsive-small-top-margin {
+    margin: 20px auto;
+  }
+  .responsive-flex-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

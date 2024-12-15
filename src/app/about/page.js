@@ -3,7 +3,7 @@ import Timeline from "@/components/Timeline";
 
 const About = () => {
   return (
-    <div className="m-16">
+    <div className="m-16 responsive-margin">
         <Timeline/>
       <div className="flex flex-col items-center my-16">
         <Hobbies/>

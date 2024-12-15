@@ -17,7 +17,7 @@ import { RiNextjsFill } from "react-icons/ri";
 const Projects = () => {
   return (
     <div className="flex flex-col gap-12 justify-items">
-      <div className="text-[35px]">Projects</div>
+      <div className="text-[2.2rem] responsive-topic-font">Projects</div>
       <div className="flex justify-around gap-12 flex-wrap">
         <div className="flex flex-col gap-6 items-center">
           <div>
@@ -29,14 +29,14 @@ const Projects = () => {
               className=" flex grayscale justify-center items-center"
             />
           </div>
-          <div className="text-[30px]">Tedxdwit</div>
+          <div className="text-[30px] responsive-subtopic-font">Tedxdwit</div>
           <div className="flex gap-12">
             <FaReact size={30} />
             <RiNodejsLine size={30} />
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center">
-          <div className="flex gap-2">
+          <div className="flex gap-2 responsive-flex-wrap">
             <Image
               src={mobilelogin}
               alt="mobile login"
@@ -59,7 +59,7 @@ const Projects = () => {
               className=" flex grayscale justify-center items-center"
             />
           </div>
-          <div className="text-[30px]">
+          <div className="text-[30px] responsive-subtopic-font">
             Mobile Application Integrated With Laravel
           </div>
           <div className="flex gap-12">
@@ -68,7 +68,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center mt-6">
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center responsive-flex-wrap">
             <Image
               src={pdfform}
               alt="marriage form"
@@ -85,7 +85,7 @@ const Projects = () => {
               className=" flex grayscale justify-center items-center"
             />
           </div>
-          <div className="text-[30px]">Pdf Editor With Laravel</div>
+          <div className="text-[30px] responsive-subtopic-font">Pdf Editor With Laravel</div>
           <div className="flex gap-12 text-[25px]">
             <div>Fpdf</div>
             <div>Fpdi</div>
@@ -102,14 +102,14 @@ const Projects = () => {
               className=" flex grayscale justify-center items-center"
             />
           </div>
-          <div className="text-[30px]">Attendance Management System</div>
+          <div className="text-[30px] responsive-subtopic-font">Attendance Management System</div>
           <div className="flex gap-12">
             <RiNextjsFill size={30} />
             <RiNodejsLine size={30} />
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center mt-6">
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center responsive-flex-wrap">
             <Image
               src={schoolform}
               alt="school form"
@@ -126,7 +126,7 @@ const Projects = () => {
               className=" flex grayscale justify-center items-center"
             />
           </div>
-          <div className="text-[30px]">Form To Website Creator</div>
+          <div className="text-[30px] responsive-subtopic-font">Form To Website Creator</div>
           <div className="flex gap-12 text-[25px]">
             <RiNextjsFill size={30} />
             <RiNodejsLine size={30} />
