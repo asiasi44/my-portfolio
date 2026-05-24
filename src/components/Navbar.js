@@ -28,7 +28,9 @@ const Navbar = () => {
           <div>
             <Link href={"/work"}>Work</Link>
           </div>
-          <div>Blog</div>
+          <div>
+            <Link href={"/blog"}>Blog</Link>
+          </div>
           <div className="flex items-center ">
             <Link
               href="https://www.linkedin.com/in/asim-poudel-45989b244"
